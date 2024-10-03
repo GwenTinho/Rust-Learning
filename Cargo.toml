@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+petgraph = ">=0.6"    # For building the graph structure
+dot = ">=0.1"         # For generating DOT files (Graphviz format)
+cairo-rs = ">=0.14"   # For rendering the graph to an image
+show-image = ">=0.14"
+image = "0.24"
